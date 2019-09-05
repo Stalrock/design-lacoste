@@ -1,0 +1,55 @@
+
+@media screen and (max-width: 1250px) {
+
+  body{
+    font-size: 0.9em;
+  }
+
+  .product{
+    width: 50%;
+  }
+
+  .pad{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .container{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .container{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .pad{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .product{
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+  .content-menu{
+    display: none;
+  }
+
+  .header{
+    height: 50px;
+  }
+
+  .main-container{
+    padding: 50px 0;
+  }
+
+  .title-page{
+    font-size: 1.5em;
+  }
+}
